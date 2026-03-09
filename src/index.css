@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  overflow: hidden; /* Prevent scroll */
+  background: #000000;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar for everything */
+::-webkit-scrollbar {
+  display: none;
+}
